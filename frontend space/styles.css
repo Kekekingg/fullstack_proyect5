@@ -1,0 +1,56 @@
+:root {
+    --azulMedianoche: #041a7c;
+    --negro: #000000;
+    --blanco: #ffffff;
+}
+
+/* Globales */
+html {
+    font-size: 62.5%;
+    box-sizing: border-box; /* Hack para Box Model */ 
+}
+
+*, *:before, *:after { 
+    box-sizing: inherit; 
+}
+
+body{
+    font-size: 16px; /* 1 REM = 10PX*/
+    font-family:'Times New Roman', Times, serif;
+
+    /* Gradiente */
+    background-image: linear-gradient(to bottom, #041a7c, #000000); /* Sirve para hacer degradados y primero hay que pasarle hacia donde va a ir el degraado, (va de aabajo hacia arriba) */
+    width: 100%;
+    height: 100vh;
+}
+
+.titulo {
+    text-align: center;
+}
+
+.contenido-hero {
+    display: flex;
+    align-items:normal;
+}
+
+.titulo {
+    color: var(--blanco);
+}
+
+.content, .meta, .description {
+    color: var(--blanco);
+}
+
+#cards {
+    display: flex;
+    margin: 100rem solid white;
+}
+
+.card_space {
+    width: 100%;
+    cursor: pointer;
+}
+
+.contenido-titulo {
+    text-align: center;
+}
